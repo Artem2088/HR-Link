@@ -1,0 +1,250 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), local("Roboto-Regular"), url("../../assets/font/Roboto.woff") format("woff2"), url("../../assets/fon/Roboto.woff2") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  height: 100vh;
+}
+.login__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 400px;
+  width: 100%;
+}
+.login__title {
+  font-size: 30px;
+}
+.login__head-img {
+  width: 400px;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.login__form {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding-bottom: 20px;
+  position: relative;
+  gap: 15px;
+}
+.login__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgba(158, 158, 158, 0.3);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.login__input {
+  background-color: rgba(158, 158, 158, 0);
+}
+.login__button-password {
+  border: none;
+  position: absolute;
+  top: 123px;
+  right: 15px;
+  background: none;
+}
+.login__button-img {
+  width: 20px;
+  height: 20px;
+}
+.login__button {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  align-items: center;
+}
+.login__button_span {
+  color: rgb(255, 255, 255);
+  rotate: 90deg;
+  width: 25px;
+}
+.login__err-span {
+  position: absolute;
+  top: 83px;
+  right: 0px;
+  color: rgba(17, 0, 255, 0.993);
+}
+.login__err-span:visited {
+  color: rgba(255, 0, 0, 0.589);
+}
+.login__copyright {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  border: none;
+  background-color: rgba(17, 0, 255, 0.993);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: none;
+  outline: none;
+}
+
+.input:focus {
+  background-color: rgba(33, 150, 243, 0.15);
+}
+
+.label {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=index.css.map */

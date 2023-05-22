@@ -1,0 +1,91 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 100vh;
+
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    &__title {
+        font-size: 30px;
+    }
+
+    &__head-img {
+        width: 400px;
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+
+    &__form {
+        border-bottom: 1px solid $COLOR_GRAY;
+        padding-bottom: 20px;
+        position: relative;
+        gap: 15px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: $COLOR_WRAP-INPUT;
+        border-bottom: 1px solid $COLOR_BLACK;
+    }
+
+    &__input {
+        background-color: $COLOR_INPUT;
+    }
+
+    &__button-password {
+        border: none;
+        position: absolute;
+        top: 123px;
+        right: 15px;
+        background: none;
+    }
+
+    &__button-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    &__button {
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        color: $COLOR_TEXT;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    &__button_span {
+        color: $COLOR_TEXT;
+        rotate: 90deg;
+        width: 25px;
+    }
+
+    &__err-span {
+        position: absolute;
+        top: 83px;
+        right: 0px;
+        color: $COLOR_SPAN-ERR;
+
+    }
+
+    &__err-span:visited {
+        color: $COLOR_VISITED
+    }
+
+    &__copyright {
+        color: $COLOR_LABEL;
+    }
+}
